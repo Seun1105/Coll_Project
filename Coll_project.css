@@ -1,0 +1,122 @@
+:root {
+    --color-white: #f3f3f3;
+    --color-darkbrown: brown;
+    --color-darkblue-alpha: #867878;
+    --color-blue: #220b69;
+}
+
+body{
+ font-family: Arial, Helvetica, sans-serif; 
+ background: var(--color-darkbrown);  
+background-image:linear-gradient(
+    115deg,
+    rgba(88, 62, 23, 0.8),
+    rgba(137, 151, 158, 0.7)
+  ), url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+margin: 0;
+font-size: 16px;
+font-weight: 400;
+color: var(--color-white);
+}
+h1{
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: start
+}
+label {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+input, button, select,textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.container {
+    width: 100%;
+    margin: 50px auto 0 auto;
+    max-width: 720px;
+}
+.header{
+    padding: 0px 14px;
+    margin-bottom: 30px;
+}
+.description{
+    font-style: inherit;
+    font-weight: 300;
+    text-align: center;
+
+}
+form{
+    padding: 40px 40px 40px 40px;
+    background: var(--color-darkblue-alpha);
+    border-radius: 4px;
+    margin: 0px;
+    min-width: 480px;
+
+}
+.form-control{
+    margin: 0px auto 20px auto;
+    padding: 4px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.form-label{
+    display: inline-block;
+    width: 100%;
+    padding: 6px 12px;
+    height: 36px;
+    color: #070707;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    background-color: rgb(245, 244, 244);
+    background-clip: padding-box;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+.input-radio{
+    display: inline-block;
+    margin-right: 10px;
+    min-width: 20px;
+    min-height: 20px;
+}
+.input-checkbox{
+    display: inline-block;
+    margin-right: 10px;
+    min-width: 20px;
+    min-height: 20px;
+}
+.input-textarea{
+    min-height: 150px;
+    padding: 12px;
+    width: 100%;
+    resize: vertical;
+    box-sizing: border-box;
+}
+.submit-button{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-blue);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
